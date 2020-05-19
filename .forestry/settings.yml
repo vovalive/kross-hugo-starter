@@ -6,19 +6,12 @@ webhook_url:
 sections:
 - type: directory
   path: content/portfolio
-  label: Portfolio
+  label: My Work
   create: none
   match: "*"
 - type: directory
-  path: content/blog
-  label: Post
-  create: documents
-  match: "*"
-  templates:
-  - post
-- type: directory
   path: content/about
-  label: About
+  label: CV
   create: none
   match: "*"
 - type: directory
